@@ -1,13 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import {Root} from './root'
-import { Generic } from './View/Generic';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import { Root } from "./root";
 
 ReactDOM.render(
   <React.StrictMode>
     <Root />
-    <Generic />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
