@@ -3,7 +3,7 @@ import { keyframes } from "styled-components";
 export const Header = styled.div`
   width: 100%;
   display: flex;
-  height: 91vh;
+  height: 100%;
   background: linear-gradient(to right, #e95258 50%, #f9f9f9 50%);
   position: relative;
 `;
@@ -12,6 +12,7 @@ export const Left = styled.div`
 `;
 export const Right = styled.div`
   flex: 1;
+  height: 718px;
 `;
 export const Container = styled.div`
   width: 60%;
@@ -175,6 +176,7 @@ Icon.Dots = styled.div`
 export const MouseWrapper = styled.div`
   position: absolute;
   width: 70px;
+  cursor: pointer;
   height: 70px;
   background: #f2c94c;
   border-radius: 50%;
