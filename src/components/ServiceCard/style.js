@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Header = styled.div`
-  padding: 0 250px;
   display: flex;
   align-items: center;
   height: 60vh;
@@ -10,14 +9,15 @@ export const Header = styled.div`
 
 export const Container = styled.div`
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 `;
 export const Card = styled.div`
   position: relative;
   width: 280.5px;
   height: 320px;
   transition: 0.3s ease-out;
+  padding: 5px;
+  box-sizing: border-box;
 `;
 export const ImgBox = styled.div`
   position: relative;
