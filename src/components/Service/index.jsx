@@ -15,7 +15,7 @@ export default function Service({ image }) {
   return (
     <Container>
       <Main>
-        <Fade top cascade>
+        <Fade duration={800} left cascade>
           <Title>Our Services</Title>
         </Fade>
         <Wrapper>
@@ -26,7 +26,7 @@ export default function Service({ image }) {
             <Button>All services</Button>
           </Fade>
         </ButtonWrapper>
-        <Fade top cascade>
+        <Fade duration={800} left cascade>
           <Title position>Our Services</Title>
         </Fade>
       </Main>
