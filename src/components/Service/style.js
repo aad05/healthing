@@ -17,17 +17,21 @@ export const Title = styled.div`
   text-transform: uppercase;
   color: #f9f9f9;
   padding-top: 30px;
-  padding-bottom: ${(props) => (props.position ? "30px" : 0)};
+  padding-bottom: 20px;
+  margin-bottom: ${(props) => (props.position ? "30px" : 0)};
   box-sizing: border-box;
 `;
-export const Wrapper = styled.div``;
+export const Wrapper = styled.div`
+  margin: 50px 0;
+`;
 export const ButtonWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 30px;
 `;
 export const Button = styled.button`
-  padding: 20px 60px;
+  padding: 15px 50px;
   border-radius: 25px;
   background: transparent;
   font-family: TT Hoves;
