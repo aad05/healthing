@@ -8,10 +8,12 @@ export const CardWrapper = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 300px;
-  height: 300px;
+  min-width: 250px;
+  min-height: 250px;
 `;
-export const ImgWrapper = styled.img``;
+export const ImgWrapper = styled.img`
+  cursor: pointer;
+`;
 export const Title = styled.div`
   font-family: TT Hoves;
   font-style: normal;
@@ -30,4 +32,5 @@ export const Desc = styled.div`
   line-height: 17px;
   color: #32495e;
   text-align: center;
+  margin-bottom: 20px;
 `;
