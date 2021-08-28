@@ -3,7 +3,9 @@ import Body from "../components/MainBody";
 import Service from "../components/Service";
 import DoctorList from "../components/DoctorList";
 import Price from "../components/PriceList";
+
 import Recomadation from "../components/Recomadation";
+import News from "../components/News/index";
 export const Generic = (props) => {
   return (
     <div>
@@ -12,6 +14,7 @@ export const Generic = (props) => {
       <DoctorList />
       <Price />
       <Recomadation />
+      <News />
     </div>
   );
 };

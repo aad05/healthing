@@ -69,10 +69,11 @@ export const Button = styled.button`
   line-height: 17px;
   text-align: center;
   color: #32495e;
-  padding: 15px 45px;
+  padding: 15px 50px;
   border: 1px solid #32495e;
   border-radius: 25px;
   background: transparent;
+  cursor: pointer;
 `;
 export const TextWrapper = styled.div`
   display: flex;
