@@ -13,7 +13,7 @@ export default function Recomadation() {
     <Main>
       <Container>
         <Fade duration={800} left cascade>
-          <Title>we are recomendded</Title>
+          <Title>Recomandations</Title>
         </Fade>
         <Wrapper>
           <Flip top cascade duration={2000}>
