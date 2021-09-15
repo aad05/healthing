@@ -6,6 +6,7 @@ import Price from "../components/PriceList";
 
 import Recomadation from "../components/Recomadation";
 import News from "../components/News/index";
+import Footer from "../components/newfooter";
 export const Generic = (props) => {
   return (
     <div>
@@ -15,6 +16,7 @@ export const Generic = (props) => {
       <Price />
       <Recomadation />
       <News />
+      <Footer />
     </div>
   );
 };
