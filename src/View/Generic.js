@@ -3,7 +3,10 @@ import Body from "../components/MainBody";
 import Service from "../components/Service";
 import DoctorList from "../components/DoctorList";
 import Price from "../components/PriceList";
+
 import Gallery from "../components/Gallery";
+import Maps from "../components/Map";
+
 import Recomadation from "../components/Recomadation";
 import News from "../components/News/index";
 import Footer from "../components/newfooter";
@@ -17,6 +20,7 @@ export const Generic = (props) => {
       <Gallery />
       <Recomadation />
       <News />
+      <Maps />
       <Footer />
     </div>
   );
