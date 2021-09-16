@@ -14,6 +14,11 @@ import {
   YMaps,
   TypeSelector,
   GeolocationControl,
+  FullscreenControl,
+  RouteButton,
+  SearchControl,
+  TrafficControl,
+  ZoomControl,
 } from "react-yandex-maps";
 import Fade from "react-reveal/Fade";
 
@@ -29,6 +34,7 @@ export default function Maps() {
         <YMaps size={(10, 10)}>
           <WrapperMap>
             <Map
+              style={{ width: "100%", height: 300 }}
               defaultState={{
                 center: [41.114592, 72.077593],
                 zoom: 7,
@@ -38,6 +44,11 @@ export default function Maps() {
               <Placemark geometry={[41.114592, 72.077593]} />
               <TypeSelector options={{ float: "right" }} />
               <GeolocationControl options={{ float: "left" }} />
+              <FullscreenControl />
+              <RouteButton options={{ float: "right" }} />
+              <SearchControl options={{ float: "right" }} />
+              <TrafficControl options={{ float: "right" }} />
+              <ZoomControl options={{ float: "right" }} />
             </Map>
           </WrapperMap>
         </YMaps>
