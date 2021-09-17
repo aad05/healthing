@@ -68,6 +68,7 @@ export const TextPosition = styled.div`
   position: absolute;
   bottom: 20px;
   left: 10px;
+  width: fit-content;
 `;
 export const IconPosition = styled.img`
   width: 20px;
