@@ -60,8 +60,7 @@ export default function Gallery() {
                 </Fade>
                 <Fade top cascade>
                   <TextPosition>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
+                    Lorem Ipsum is simply dummy <br /> text of the printing and
                   </TextPosition>
                 </Fade>
               </ImgText>
