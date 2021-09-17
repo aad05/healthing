@@ -113,6 +113,8 @@ export const Icon = styled.div`
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: all 0.3s;
+
   :hover {
     box-shadow: 0 0 0 7px rgba(195, 58, 124, 0.3);
   }
@@ -127,6 +129,8 @@ Icon.Phone = styled.div`
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: all 0.3s;
+
   :hover {
     box-shadow: 0 0 0 7px rgba(50, 73, 94, 0.3);
   }
@@ -141,6 +145,7 @@ Icon.Checkbox = styled.div`
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: all 0.3s;
   :hover {
     box-shadow: 0 0 0 7px rgba(69, 152, 255, 0.3);
   }
@@ -155,6 +160,8 @@ Icon.Whatsapp = styled.div`
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: all 0.3s;
+
   :hover {
     box-shadow: 0 0 0 7px rgba(20, 172, 81, 0.3);
   }
@@ -169,6 +176,7 @@ Icon.Dots = styled.div`
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: all 0.3s;
   :hover {
     box-shadow: 0 0 0 20px rgba(233, 82, 88, 0.3);
   }

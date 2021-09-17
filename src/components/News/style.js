@@ -23,9 +23,16 @@ export const Card = styled.div`
   flex-direction: column;
   background: #e95258;
 `;
+export const ImageWrapper = styled.div`
+  overflow: hidden;
+`;
 export const Image = styled.img`
   width: 100%;
   height: 150px;
+  transition: linear 0.5s;
+  :hover {
+    transform: scale(1.1);
+  }
 `;
 export const Title = styled.div`
   font-family: TT Hoves;

@@ -18,6 +18,7 @@ import {
   Title,
   ButtonWrapper,
   Button,
+  ImageWrapper,
 } from "./style";
 export default function News() {
   return (
@@ -29,7 +30,9 @@ export default function News() {
         <WrapperCard>
           <Flip top cascade duration={2000}>
             <Card>
-              <Image src={Beach} />
+              <ImageWrapper>
+                <Image src={Beach} />
+              </ImageWrapper>
               <Fade top cascade>
                 <WrapperTitle>News title - Heading in two lines</WrapperTitle>
               </Fade>
@@ -46,7 +49,9 @@ export default function News() {
           </Flip>
           <Flip top cascade duration={2000}>
             <Card>
-              <Image src={Beach} />
+              <ImageWrapper>
+                <Image src={City} />
+              </ImageWrapper>
               <Fade top cascade>
                 <WrapperTitle>News title - Heading in two lines</WrapperTitle>
               </Fade>
@@ -63,7 +68,9 @@ export default function News() {
           </Flip>
           <Flip top cascade duration={2000}>
             <Card>
-              <Image src={Beach} />
+              <ImageWrapper>
+                <Image src={Forest} />
+              </ImageWrapper>
               <Fade top cascade>
                 <WrapperTitle>News title - Heading in two lines</WrapperTitle>
               </Fade>
@@ -80,7 +87,9 @@ export default function News() {
           </Flip>
           <Flip top cascade duration={2000}>
             <Card>
-              <Image src={Beach} />
+              <ImageWrapper>
+                <Image src={Town} />
+              </ImageWrapper>
               <Fade top cascade>
                 <WrapperTitle>News title - Heading in two lines</WrapperTitle>
               </Fade>
