@@ -16,7 +16,8 @@ export const Right = styled.div`
   flex: 1;
 `;
 export const Img = styled.img`
-  padding-left: 20px;
+  width: 720px;
+  height: 540px;
 `;
 export const Title = styled.div`
   font-family: TT Hoves;
