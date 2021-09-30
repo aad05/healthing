@@ -10,7 +10,7 @@ import {
   Right,
   Title,
 } from "./style";
-import Doctormedic from "../../assets/imgs/doctormedic.jpg";
+import medic from "../../assets/imgs/doctormedic.jpg";
 export const AboutTitle = () => {
   return (
     <Header>
@@ -54,7 +54,7 @@ export const AboutTitle = () => {
         </Left>
       </Container>
       <Right>
-        <Img src={Doctormedic} />
+        <Img src={medic} />
       </Right>
     </Header>
   );
