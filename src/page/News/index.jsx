@@ -1,10 +1,16 @@
 import React from "react";
 import Body from "../../components/MainBody";
-export const News = () => {
+import NewsSection from "../../components/NewsSection";
+import News from "../../components/News";
+import Footer from "../../components/newfooter";
+export const New = () => {
   return (
     <div>
       <Body />
+      <NewsSection />
+      <News />
+      <Footer />
     </div>
   );
 };
-export default News;
+export default New;
