@@ -1,35 +1,39 @@
 import { Generic } from "../View/Generic";
-
+import Home from "../page/Home";
+import About from "../page/About";
+import Service from "../page/Service";
+import News from "../page/News";
+import Gallery from "../page/Gallery";
 export const navbar = [
   {
     id: 1,
     path: "/home",
     title: "Home",
-    component: Generic,
+    component: Home,
   },
   {
     id: 2,
     path: "/service",
     title: "Service",
-    component: Generic,
+    component: Service,
   },
   {
     id: 3,
     path: "/gallery",
     title: "Gallery",
-    component: Generic,
+    component: Gallery,
   },
   {
     id: 4,
     path: "/about-us",
     title: "About Us",
-    component: Generic,
+    component: About,
   },
   {
     id: 5,
     path: "/news",
     title: "News",
-    component: Generic,
+    component: News,
   },
   {
     id: 6,
