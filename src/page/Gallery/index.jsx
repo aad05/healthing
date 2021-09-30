@@ -1,6 +1,12 @@
 import React from "react";
-
-export const GAllery = () => {
-  return <div></div>;
+import ServiceBuddy from "../../components/ServiceBuddy";
+import Short from "../../components/Short";
+export const Gallery = () => {
+  return (
+    <div>
+      <ServiceBuddy />
+      <Short />
+    </div>
+  );
 };
-export default GAllery;
+export default Gallery;
