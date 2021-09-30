@@ -5,7 +5,7 @@ import Google from "../../assets/icons/Google.png";
 import Three from "../../assets/icons/three.png";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
-
+import { Link } from "react-router-dom";
 import {
   Container,
   Main,
@@ -94,9 +94,11 @@ export default function Footer() {
           <Section4>
             <AllWrapper>
               <Flip top cascade duration={2000}>
-                <Icondiv>
-                  <Icon src={Three} />
-                </Icondiv>
+                <Link to="">
+                  <Icondiv>
+                    <Icon src={Three} />
+                  </Icondiv>
+                </Link>
               </Flip>
               <Fade top cascade>
                 <TitleWrapper>
