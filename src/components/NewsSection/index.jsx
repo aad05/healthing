@@ -3,6 +3,8 @@ import { Container, Header, Img, Left, Right, Title, Wrapper } from "./style";
 import Rectangle1 from "../../assets/imgs/Rectangle1.png";
 import Rectangle2 from "../../assets/imgs/Rectangle2.png";
 import Rectangle3 from "../../assets/imgs/Rectangle3.png";
+import Fade from "react-reveal/Fade";
+
 export const NewsSection = () => {
   return (
     <Header>
@@ -10,7 +12,9 @@ export const NewsSection = () => {
         <Title>Our News</Title>
         <Wrapper>
           <Left>
-            <Img src={Rectangle1} />
+            <Fade left cascde duration={800}>
+              <Img src={Rectangle1} />
+            </Fade>
           </Left>
           <Right>
             <Right.Title>Create an account</Right.Title>
@@ -33,12 +37,16 @@ export const NewsSection = () => {
             </Right.Commet>
           </Right>
           <Left>
-            <Img src={Rectangle2} />
+            <Fade right cascade>
+              <Img src={Rectangle2} />
+            </Fade>
           </Left>
         </Wrapper>
         <Wrapper>
           <Left>
-            <Img src={Rectangle3} />
+            <Fade left cascade>
+              <Img src={Rectangle3} />
+            </Fade>
           </Left>
           <Right>
             <Right.Title>Create an account</Right.Title>
