@@ -10,6 +10,7 @@ export const Header = styled.div`
 export const Container = styled.div`
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 `;
 export const Card = styled.div`
   position: relative;

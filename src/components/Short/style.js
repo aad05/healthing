@@ -44,6 +44,7 @@ export const BottomText = styled.div`
   height: 200px;
   width: 100%;
   background: #0e2942;
+  overflow: auto;
 `;
 export const ParagraphBottom = styled.div`
   font-family: TT Hoves;
