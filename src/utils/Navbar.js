@@ -4,6 +4,7 @@ import About from "../page/About";
 import Service from "../page/Service";
 import News from "../page/News";
 import Gallery from "../page/Gallery";
+import Contact from "../page/Contact";
 export const navbar = [
   {
     id: 1,
@@ -39,6 +40,6 @@ export const navbar = [
     id: 6,
     path: "/contact",
     title: "Contact",
-    component: Generic,
+    component: Contact,
   },
 ];
