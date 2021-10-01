@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { keyframes } from "styled-components";
+
 export const Header = styled.div`
   width: 100%;
   display: flex;
@@ -92,8 +92,13 @@ export const Button = styled.button`
 
 export const Img = styled.div`
   position: absolute;
-  left: ${(props) => (props.position ? "-150px" : "150px")};
-  top: -1px;
+  left: 0;
+  bottom: -5px;
+`;
+export const Img2 = styled.div`
+  position: absolute;
+  right: 0;
+  bottom: -5px;
 `;
 export const IconsWrapper = styled.div`
   position: absolute;

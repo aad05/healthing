@@ -19,6 +19,7 @@ import {
   Icon,
   IconsWrapper,
   Img,
+  Img2,
   Left,
   List,
   MainButton,
@@ -33,6 +34,9 @@ import {
 export default function Body() {
   return (
     <Header>
+      <Img position>
+        <img src={Notepad} alt="text" />
+      </Img>
       <Left>
         <Container>
           <Fade duration={800} left cascade>
@@ -42,9 +46,6 @@ export default function Body() {
           </Fade>
           <Fade duration={1000} left cascade>
             <Desc position color>
-              <Img position>
-                <img src={Notepad} alt="text" />
-              </Img>
               Lorem Ipsum is simply dummy
               <br /> text of the printing and <br />
               typesetting industry. Lorem Ipsum <br /> has been the industry's{" "}
@@ -79,6 +80,9 @@ export default function Body() {
         </Container>
       </Left>
       <Right>
+        <Img2>
+          <img src={MedicTable} alt="text" />
+        </Img2>
         <Container>
           <Fade duration={800} right cascade>
             <Title>Travma-Peabilitazionniy Center</Title>
@@ -89,9 +93,6 @@ export default function Body() {
               <br /> text of the printing and <br />
               typesetting industry. Lorem Ipsum <br /> has been the industry's{" "}
               <br /> standard dummy text ever since <br /> the
-              <Img>
-                <img src={MedicTable} alt="text" />
-              </Img>
             </Desc>
           </Fade>
           <Fade duration={2100} right cascade>
