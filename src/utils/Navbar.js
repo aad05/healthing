@@ -1,4 +1,3 @@
-import { Generic } from "../View/Generic";
 import Home from "../page/Home";
 import About from "../page/About";
 import Service from "../page/Service";

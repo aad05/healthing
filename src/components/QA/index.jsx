@@ -26,7 +26,7 @@ export const QA = () => {
         <Left>
           {questions.map((value) => {
             return (
-              <LeftWrapper>
+              <LeftWrapper key={value.id}>
                 <Questions>{value.title}</Questions>
                 <Button onClick={() => setIsActive(value.id)}>
                   <LogoWrapper
@@ -43,7 +43,7 @@ export const QA = () => {
             .filter((value) => value.id === isActive)
             .map((value) => {
               return (
-                <AnswerWrapper>
+                <AnswerWrapper key={value.id}>
                   <AnswerTitle>{value.title}</AnswerTitle>
                   <AnswerParagraph>{value.desc}</AnswerParagraph>
                 </AnswerWrapper>

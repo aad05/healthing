@@ -29,8 +29,11 @@ export default function Price() {
                 <MediumText>Price of Service</MediumText>
               </Fade>
             </TextWrapper>
-            {price.map(({ title, price }) => (
-              <div style={{ display: "flex", justifyContent: "space-between" }}>
+            {price.map(({ title, price, id }) => (
+              <div
+                key={id}
+                style={{ display: "flex", justifyContent: "space-between" }}
+              >
                 <Fade delay={700} top cascade>
                   <Title>{title}</Title>
                 </Fade>
@@ -47,8 +50,11 @@ export default function Price() {
                 <MediumText>Price of Service</MediumText>
               </Fade>
             </TextWrapper>
-            {price.map(({ title, price }) => (
-              <div style={{ display: "flex", justifyContent: "space-between" }}>
+            {price.map(({ id, title, price }) => (
+              <div
+                key={id}
+                style={{ display: "flex", justifyContent: "space-between" }}
+              >
                 <Fade top delay={700} cascade>
                   <Title>{title}</Title>
                 </Fade>
